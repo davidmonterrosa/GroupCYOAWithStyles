@@ -1,5 +1,9 @@
 /* Style Sheet for our project */
 
+h1{
+    color: black;
+    padding-top: 1%;
+}
 p{
     padding-top: 1%;
 }
