@@ -1,1 +1,7 @@
 /* Style Sheet for our project */
+body {
+    background-image: url("https://images4.alphacoders.com/574/thumb-1920-574726.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
