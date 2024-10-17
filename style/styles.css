@@ -1,4 +1,16 @@
 /* Style Sheet for our project */
+
+p{
+    padding-top: 1%;
+}
+h2{
+    color: black;
+    padding-top: 1%;
+}
+.story-text
+{
+    color:black
+}
 body {
     background-image: url("https://images4.alphacoders.com/574/thumb-1920-574726.jpg");
     background-repeat: no-repeat;
@@ -57,6 +69,8 @@ body {
     padding: 2vw;
     max-width: max-content;
     background-color: rgba(254, 254, 254, 0.806);
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 /* #containerbtn{
     justify-content: space-between;
@@ -90,35 +104,35 @@ body {
     background-image: url(/assets/river.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 85%;
+    background-size: 100% 100%;
 }
 #pagebackfive {
     background-image: url(/assets/kleavor2.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 85%;
+    background-size: 100% 100%;
 }
 #pagebacksix {
     background-image: url(/assets/junglenight.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 85%;
+    background-size: 100% 100%;
 }
 #pagebackseven {
     background-image: url(/assets/feraligatr.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 85%;
+    background-size: 100% 100%;
 }
 #pagebackeight {
     background-image: url(/assets/zarude.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 85%;
+    background-size: 100% 100%;
 }
 #pagebacknine {
     background-image: url(/assets/mewtemple.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 85%;
+    background-size: 100% 100%;
 }
