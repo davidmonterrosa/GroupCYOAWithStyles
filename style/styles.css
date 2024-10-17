@@ -38,6 +38,16 @@ body {
 #container1{
     justify-content: space-around;
 }
+
+.button-style {
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border-radius: 2vw;
+    padding: 2vw;
+    max-width: max-content;
+    background-color: rgba(254, 254, 254, 0.806);
+}
 /* #containerbtn{
     justify-content: space-between;
 } */
