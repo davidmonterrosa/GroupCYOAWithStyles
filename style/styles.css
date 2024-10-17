@@ -27,4 +27,7 @@ body {
 
 #start-screen {
     background-image: url(/assets/temple.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
