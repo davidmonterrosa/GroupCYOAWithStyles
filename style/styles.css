@@ -31,13 +31,16 @@ body {
     
     justify-content: center;
 }
-
+.flex-button-area {
+    display: flex;
+    justify-content: space-around;
+}
 #container1{
     justify-content: space-around;
 }
-#containerbtn{
+/* #containerbtn{
     justify-content: space-between;
-}
+} */
 
 #start-screen {
     background-image: url(/assets/temple.png);
