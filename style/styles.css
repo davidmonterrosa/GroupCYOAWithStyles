@@ -12,9 +12,9 @@ body {
     margin-bottom: 20px;
 }
 .flex-item{
-    width: 800px;
-    padding: 20px;
-    margin: 80px;
+    width: 60%;
+    padding: 10%;
+    margin: 5%;
     background-color: rgb(255, 255, 255);
     color: white;
     text-align: center;
