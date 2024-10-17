@@ -29,5 +29,59 @@ body {
     background-image: url(/assets/temple.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: 100% 85%;
+}
+#pagebackone {
+    background-image: url(/assets/junglebackground.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 85%;
+}
+#pagebacktwo {
+    background-image: url(/assets/durant.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 85%;
+}
+#pagebackthree {
+    background-image: url(/assets/kleavor.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 85%;
+}
+#pagebackfour {
+    background-image: url(/assets/river.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 85%;
+}
+#pagebackfive {
+    background-image: url(/assets/kleavor2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 85%;
+}
+#pagebacksix {
+    background-image: url(/assets/junglenight.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 85%;
+}
+#pagebackseven {
+    background-image: url(/assets/feraligatr.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 85%;
+}
+#pagebackeight {
+    background-image: url(/assets/zarude.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 85%;
+}
+#pagebacknine {
+    background-image: url(/assets/mewtemple.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 85%;
 }
