@@ -24,3 +24,7 @@ body {
 #container1{
     justify-content: space-around;
 }
+
+#start-screen {
+    background-image: url(/assets/temple.png);
+}
