@@ -21,8 +21,22 @@ body {
     border-radius: 25px;
     border-style: ridge;
 }
+.translucent-panel{
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.473);
+    text-align: center;
+    border-radius: 10px;
+}
+#translucent-box{
+    
+    justify-content: center;
+}
+
 #container1{
     justify-content: space-around;
+}
+#containerbtn{
+    justify-content: space-between;
 }
 
 #start-screen {
