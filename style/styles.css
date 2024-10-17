@@ -11,6 +11,16 @@ body {
     height: 80%;
   
 }
+.start-button
+{
+    display: flex;
+    justify-content: center;
+}
+.play-again
+{
+    display: flex;
+    justify-content: center;
+}
 .flex-item{
     width: 60%;
     padding: 10%;
