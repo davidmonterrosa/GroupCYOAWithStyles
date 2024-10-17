@@ -82,25 +82,25 @@ body {
     background-image: url(/assets/temple.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 85%;
+    background-size: 100% 100%;
 }
 #pagebackone {
     background-image: url(/assets/junglebackground.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 85%;
+    background-size: 100% 100%;
 }
 #pagebacktwo {
     background-image: url(/assets/durant.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 85%;
+    background-size: 100% 100%;
 }
 #pagebackthree {
     background-image: url(/assets/kleavor.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 85%;
+    background-size: 100% 100%;
 }
 #pagebackfour {
     background-image: url(/assets/river.png);
