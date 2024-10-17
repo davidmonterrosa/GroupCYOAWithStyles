@@ -8,8 +8,8 @@ body {
 
   .flex-container{
     display: flex;
-    height: 600px;
-    margin-bottom: 20px;
+    height: 80%;
+  
 }
 .flex-item{
     width: 60%;
