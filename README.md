@@ -22,10 +22,10 @@
 [Group CYOA Repository](https://github.com/davidmonterrosa/GroupCYOAWithStyles.git)
 
 *** Change Log ***
-mm/dd/yyyy - MQ/GP/DM - short description
++ mm/dd/yyyy - MQ/GP/DM - short description
 - 10/16/2024 - DM - Created git repository.
 - 10/17/2024 - MQ/GP/DM - Implemented story pages
 - 10/18/2024 - MQ/GP/DM - Implemented bootstrap navbar and PokeDex page
 
 Peer Reviewed By: 
-    > Comments: 
+> Comments: 
