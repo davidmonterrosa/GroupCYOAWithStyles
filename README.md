@@ -1,5 +1,5 @@
 # Mason Quillon, Gianpaolo Reinares, David Monterrosa
-# Last Date Revised: 10/16/2024
+# Last Date Revised: 10/18/2024
 # "Challenge #1 - Group CYOA with Styles"
 ### Description: 
 - Use Text to tell the story
@@ -26,14 +26,6 @@ mm/dd/yyyy - MQ/GP/DM - short description
 - 10/16/2024 - DM - Created git repository.
 - 10/17/2024 - MQ/GP/DM - Implemented story pages
 - 10/18/2024 - MQ/GP/DM - Implemented bootstrap navbar and PokeDex page
-
-// David Monterrosa / Gianpaolo Reinares / Mason Quilon
-
- // October 18, 2024
-
- // Group CYOA with Styles
-
- // Create a new website that is a Choose Your Own Adventure game with styles
 
 Peer Reviewed By: 
     > Comments: 
