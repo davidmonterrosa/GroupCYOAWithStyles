@@ -142,21 +142,9 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%;
 }
-.infobox{
-    background-color: black;
-}
-.hide {
-    display: none;
-  }
-  .myDIV:hover + .hide {
-    display: block;
+
+#myheader{
     color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-bottom: 10%;
-  }
-.infobox{
-    margin-left: 20%;
-    margin-right: 20%;
     background-color: black;
     border-radius: 10px;
 }
