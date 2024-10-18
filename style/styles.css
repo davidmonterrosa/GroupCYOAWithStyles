@@ -172,3 +172,6 @@ button{
     border: none;
     background-color: rgba(128, 128, 128, 0);
 }
+.jungle-title{
+    padding: 5%;
+}
