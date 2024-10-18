@@ -1,0 +1,199 @@
+<!-- test test -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group CYOA With Styles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/styles.css">
+    <link rel="shortcut icon" href="./assets/codestacklogo.png" />
+</head>
+<body>
+    <!-- NavBar Code from Bootstrap site -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Jungle Adventure Web Game</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/pokedex.html">PokeDex</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+    <div id="container1" class="flex-container">
+        <div id="dex-screen" class="flex-item">
+            <div class="translucent-panel">
+                <img
+                                class
+                                src="/assets/dexicon.png"
+                                alt="durant-icon"
+                                width="100"
+                                height="100"
+                              />
+                <h1>Pokédex</h1>
+                <p>During your adventure, you could encounter the following Pokémon:</p>
+                <table id="dex">
+                    <tbody>
+                        <tr id="dex">
+                            <td>
+                                <button popovertarget="durant-dex"><img
+                                    class
+                                    src="/assets/duranticon.png"
+                                    alt="durant-icon"
+                                    width="75"
+                                    height="75"
+                                    /></button></td>
+                            <td><button popovertarget="kleavor-dex"><img
+                                class
+                                src="/assets/kleavoricon.png"
+                                alt="kelavor-icon"
+                                width="75"
+                                height="75"
+                                /></button></td>
+                            <td><button popovertarget="feraligatr-dex"><img
+                                class
+                                src="/assets/feraligatricon.png"
+                                alt="feraligatr-icon"
+                                width="75"
+                                height="75"
+                                /></button></td>
+                            <td><button popovertarget="zarude-dex"><img
+                                class
+                                src="/assets/zarudeicon.png"
+                                alt="zarude-icon"
+                                width="75"
+                                height="75"
+                                /></button></td>
+                            <td><button popovertarget="mew-dex"><img
+                                class
+                                src="/assets/mewicon.png"
+                                alt="mew-icon"
+                                width="75"
+                                height="75"
+                                /></button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div popover id="durant-dex" class="dex-info"><img
+                    class
+                    src="/assets/duranticon.png"
+                    alt="durant-icon"
+                    width="100"
+                    height="100"
+                  />
+                  <br>
+                  <h4>Durant - The Iron Ant Pokémon</h4>
+                  <audio controls>
+                    <source src="/audioassets/durant.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+                  <p>Type: Bug/Steel</p>
+                  <p>Abilities:
+                    <br>Swarm
+                    <br>Hustle
+                    <br>Truant (HA)</p>
+                    <h4>Pokédex Entry:</h4>
+                  <p>Durant dig nests in mountains. <br>They build their complicated, interconnected tunnels into mazes.</p>
+                  <br>
+                </div>
+                <div popover id="kleavor-dex" class="dex-info"><img
+                    class
+                    src="/assets/kleavoricon.png"
+                    alt="kelavor-icon"
+                    width="100"
+                    height="100"
+                  />
+                  <br>
+                  <h4>Kleavor - The Axe Pokémon</h4>
+                  <audio controls>
+                    <source src="/audioassets/kleavor.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+                  <p>Type: Bug/Rock</p>
+                  <p>Abilities:
+                    <br>Swarm
+                    <br>Sheer Force
+                    <br>Sharpness (HA)</p>
+                    <h4>Pokédex Entry:</h4>
+                  <p>This Pokémon is a rough, crude, and violent sort. <br> It swings around its large, heavy stone axes to
+                    finish off its prey.</p>
+                  <br>
+                </div>
+                <div popover id="feraligatr-dex" class="dex-info"><img
+                    class
+                    src="/assets/feraligatricon.png"
+                    alt="feraligatr-icon"
+                    width="100"
+                    height="100"
+                  />
+                  <br>
+                  <h4>Feraligatr - The Big Jaw Pokémon</h4>
+                  <audio controls>
+                    <source src="/audioassets/feraligatr.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+                  <p>Type: Water</p>
+                  <p>Abilities:
+                    <br>Torrent
+                    <br>Sheer Force (HA)</p>
+                    <h4>Pokédex Entry:</h4>
+                  <p>It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.</p>
+                  <br>
+                </div>
+                <div popover id="zarude-dex" class="dex-info"><img
+                    class
+                    src="/assets/zarudeicon.png"
+                    alt="zarude-icon"
+                    width="100"
+                    height="100"
+                  />
+                  <br>
+                  <h4>Zarude - The Rogue Monkey Pokémon</h4>
+                  <audio controls>
+                    <source src="/audioassets/zarude.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+                  <p>Type: Dark/Grass</p>
+                  <p>Abilities:
+                    <br>Leaf Guard</p>
+                    <h4>Pokédex Entry:</h4>
+                  <p>Once the vines on Zarude's body tear off, they become nutrients in the soil. <br>This helps the plants of the forest grow.</p>
+                  <br>
+                </div>
+                <div popover id="mew-dex" class="dex-info"><img
+                    class
+                    src="/assets/mewicon.png"
+                    alt="mew-icon"
+                    width="100"
+                    height="100"
+                  />
+                  <br>
+                  <h4>Mew - The New Species Pokémon</h4>
+                  <audio controls>
+                    <source src="/audioassets/mew.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+                  <p>Type: Psychic</p>
+                  <p>Abilities:
+                    <br>Synchronize</p>
+                    <h4>Pokédex Entry:</h4>
+                  <p>It's very intelligent and can use an incredible variety of moves. <br>Many believe that all other Pokémon are descendants of this one.</p>
+                  <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

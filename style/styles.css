@@ -142,6 +142,13 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%;
 }
+#dex-screen {
+    background-image: url(/assets/dexbackground.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color:black;
+}
 
 #myheader{
     color: white;
@@ -149,4 +156,19 @@ body {
     border-radius: 10px;
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#dex{
+    display: flex;
+    justify-content: space-around;
+}
+.dex-info{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
+    border: none;
+    background-color: rgba(128, 128, 128, 0);
 }
