@@ -27,5 +27,5 @@
 - 10/17/2024 - MQ/GP/DM - Implemented story pages
 - 10/18/2024 - MQ/GP/DM - Implemented bootstrap navbar and PokeDex page
 
-Peer Reviewed By: 
-> Comments: 
+Peer Reviewed By: Chris Wells-Hott
+> Comments: Very impressive work. The U.I is clean and everything flows very.I also learned alot by looking at the code.
